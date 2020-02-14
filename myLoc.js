@@ -124,7 +124,7 @@ function displayLocation(positon){
 
 	var km = computeDistance(positon.coords, ourCoords);
 	var distance = document.getElementById("distance");
-	distance.innerHTML = "jesteś " + km + " km od siedziby Helionu";
+	distance.innerHTML = "jesteś " + km + " km od Gliwic";
 
 	if (map == null) {
 		showMap(positon.coords);
